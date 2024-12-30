@@ -6,7 +6,6 @@ import { IoStarSharp } from "react-icons/io5";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa6";
-import { url } from "inspector";
 import Link from "next/link";
 
 export default function blog() {

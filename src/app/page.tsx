@@ -3,7 +3,6 @@ import { BsFillPeopleFill } from "react-icons/bs";
 import { IoSearchSharp } from 'react-icons/io5';
 import { FaCartShopping } from "react-icons/fa6";
 import { FaRegHeart } from "react-icons/fa";
-import { url } from "inspector";
 import Link from "next/link";
 
 export default function Home() {
