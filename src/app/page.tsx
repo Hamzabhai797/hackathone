@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { BsFillPeopleFill } from "react-icons/bs";
 import { IoSearchSharp } from 'react-icons/io5';
 import { FaCartShopping } from "react-icons/fa6";

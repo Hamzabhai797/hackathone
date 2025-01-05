@@ -65,7 +65,7 @@ export default function contact () {
     <button className="h-12 absolute w-60 mt-[740] ml-[700] bg-yellow-700 rounded-md border border-gray-500">Submit</button>
 </div>
 
-<div className="h-48 w-auto bg-pink-200 flex">
+         <div className="h-48 w-auto bg-pink-200 flex">
                    <h2 className="ml-20 mt-16 absolute text-4xl font-semibold">High Quality</h2>
                    <p className="ml-20 mt-28 absolute text-2xl">Crafted from top materials</p>
                    <h2 className="ml-[420] mt-16 absolute text-3xl font-semibold">Warranty Protection</h2>

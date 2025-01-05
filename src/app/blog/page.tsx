@@ -146,7 +146,7 @@ export default function blog() {
         <h2 className="text-2xl font-bold ml-[350] mt-8">Description</h2>
         <h3 className="text-2xl text-gray-500 mt-8 ml-14">Additional information</h3>
         <h3 className="text-2xl text-gray-500 mt-8 ml-14">Reviews [5]</h3>
-        <p className="mt-28 -ml-[700] text-gray-500">Embody the row. wayword spirit if rock 'n' roil, the kelburn partable active sterio speaker takes the unmistikable look and<br></br>
+        <p className="mt-28 -ml-[700] text-gray-500">Embody the row. wayword spirit if rock &apos;n&apos; roil, the kelburn partable active sterio speaker takes the unmistikable look and<br></br>
         sound of marshall, unplugs the chord, and take the show on the road.</p>
         <p className="mt-60 -ml-[845] text-gray-500">Weighing in under 7 pound, the kilburn is a lightweight piece of wintage styled engineering setting the bar as one of the loudest<br></br>
         speaker in it class the kelburn is a compact, stout-hearted hero with a well-balanced audio which biasts a clear midrange<br></br>
