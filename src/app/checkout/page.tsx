@@ -14,9 +14,9 @@ export default function checkout () {
                     </div>
                     <div className="h-16 w-80 text-2xl flex justify-center items-center">
                     <ul className="flex flex-row justify-center items-center space-y-1 gap-10 cursor-pointer">
-                      <li>Home</li>
-                      <li>Shop</li>
-                      <li>blog</li>
+                      <li><Link href="/">Home</Link></li>
+                      <li><Link href="/shop">Shop</Link></li>
+                      <li><Link href="/blog">blog</Link></li>
                       <li><Link href="/contact">Contact</Link></li>
                     </ul>
                   </div>
@@ -52,6 +52,12 @@ export default function checkout () {
                         <option value="South korea">South korea</option>
                         <option value="England">England</option>
                         <option value="Canada">Canada</option>
+                        <option value="Italy">Italy</option>
+                        <option value="Austrailia">Austrailia</option>
+                        <option value="France">France</option>
+                        <option value="Palastine">Palastine</option>
+                        <option value="Jordan">Jordan</option>
+                        <option value="Hungary">Hungary</option>
                     </select>
                     <h2 className="absolute mt-[400] font-bold ml-28">Street Address</h2>
                     <input type="text" placeholder="" className="absolute mt-[440] h-12 w-60 rounded-lg ml-28 px-5 border border-gray-500" />
@@ -67,7 +73,7 @@ export default function checkout () {
                     <h4 className="absolute ml-28 mt-[710] font-bold">Zip Code</h4>
                     <input type="text" placeholder="" className="h-12 w-60 rounded-md border border-gray-500 mt-[750] absolute ml-28 px-3" />
                     <h4 className="absolute ml-28 mt-[810] font-bold">Phone</h4>
-                    <input type="text" placeholder="+92 000-0000000" className="h-12 w-60 rounded-md border border-gray-500 mt-[850] absolute ml-28 px-3" />
+                    <input type="number" placeholder="+92 000-0000000" className="h-12 w-60 rounded-md border border-gray-500 mt-[850] absolute ml-28 px-3" />
                     <h4 className="absolute ml-28 mt-[910] font-bold">Email Address</h4>
                     <input type="text" placeholder="Email" className="h-12 w-60 rounded-md border border-gray-500 mt-[950] absolute ml-28 px-3" />
                     <input type="text" placeholder="Additional information" className="h-12 w-60 rounded-lg border border-gray-500 absolute px-3 mt-[1040] ml-28" />

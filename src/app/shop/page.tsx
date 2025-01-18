@@ -14,7 +14,7 @@ export default function shop() {
         </div>
         <div className="h-16 w-96 text-2xl flex justify-center items-center">
         <ul className="flex flex-row justify-center items-center space-y-1 gap-10 cursor-pointer">
-          <li>Home</li>
+          <li><Link href="/">Home</Link></li>
           <li>Shop</li>
           <li><Link href="/blog">blog</Link></li>
           <li><Link href="/contact">Contact</Link></li>

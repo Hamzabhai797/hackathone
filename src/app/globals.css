@@ -2,20 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* @media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  .hero-button {
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+  }
+} */
+
+/* @media (max-width: 768) {
+  .hamza {
+    row-gap: 5px;
   }
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
+@layer utilities {
+  @media (max-width: 480px) {
+    .small-btn {
+      font-size: 12px;
+      padding: 8px 16px;
+    }
+  }
+} */

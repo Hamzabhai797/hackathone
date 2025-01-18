@@ -5,19 +5,20 @@ import { FaRegHeart } from "react-icons/fa";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoTime } from "react-icons/io5";
+import Link from "next/link";
 
 export default function contact () {
     return (
-        <div>
+        <div className="hamza">
         <nav className="h-20 w-[800]px flex justify-between items-center mx-8">
       <div>
         <h2 className="text-4xl font-semibold">Furniro</h2>
         </div>
         <div className="h-16 w-96 text-2xl flex justify-center items-center">
         <ul className="flex flex-row justify-center items-center space-y-1 gap-10 cursor-pointer">
-          <li>Home</li>
-          <li>Shop</li>
-          <li>blog</li>
+          <li><Link href="/">Home</Link></li>
+          <li><Link href="/shop">Shop</Link></li>
+          <li><Link href="/blog">blog</Link></li>
           <li>Contact</li>
         </ul>
       </div>
